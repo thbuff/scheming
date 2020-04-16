@@ -1,0 +1,19 @@
+In this package you have some tools to load and visualize retina sketches dynamically.
+Have a look at the script retina_test.py to have an insight!
+
+In the retina_model module you have all the simple classes composing your retina:
+    * the neurons
+    * the synapses
+    * the layers
+    * the retina
+
+There is a module retina_import that allows you to define the structure of your retina with a .csv file.
+You can load your retina from csv files and generate the corresponding objects with just one function.
+Have a look at the data folder for examples of csv files.
+
+In retina_rendering you have a class that deals with graphical representations of your retina.
+You can have several graphic sets (I created a new one myself).
+With this module you can choose any of those and load the corresponding images with just one function.
+
+In retina_viewer you have the object that handles the final plot: you give it a graphic set, a retina model,
+chose some settings, and this object generates the figure for you.
